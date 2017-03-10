@@ -13,7 +13,6 @@
 ####                           single sample.               ####
 ################################################################
 EfronBoot <- function(data, B=100){
-
   #Function should check inputs are correct
 
   bootData <- matrix(NA, nrow=length(data), ncol=B) #matrix to fill with bootstrap samples
